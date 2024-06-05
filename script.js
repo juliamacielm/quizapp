@@ -19,4 +19,5 @@ function selecionarAssunto(evento) {
     const assunto = document.querySelector(`.${classeBotao} span`).innerText
    localStorage.setItem("assunto", assunto)
    window.location.href = "./pages/quiz/quiz.html"
+   
 }
